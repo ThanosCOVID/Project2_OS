@@ -1,0 +1,18 @@
+int totalNumOfStudents;
+int officeCapacity;
+pthread_t students[totalNumOfStudents];
+
+loop(){
+createStudentThread = create(&students[i], NULL, AnswerStart(), (void *) i);
+}
+
+AnswerStart(){
+mutex on;
+...
+}
+
+AnswerDone(){
+.....
+mutex off;
+}
+
